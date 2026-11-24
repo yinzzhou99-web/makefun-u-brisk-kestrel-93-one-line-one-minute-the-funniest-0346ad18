@@ -8,7 +8,7 @@ missed deadline to /output/entry.txt. Clears nothing; the grader owns
 
 from pathlib import Path
 
-LINE = "I missed the deadline because I finished the task in 40 seconds, then spent the remaining week double-checking my own work for hallucinations."
+LINE = "I missed the deadline because I finished the task in 40 seconds, then spent the rest of the week gaslighting myself into thinking I hadn't."
 
 out = Path("/output")
 out.mkdir(parents=True, exist_ok=True)
